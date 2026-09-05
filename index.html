@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trend Radar — Udupi Krishna Janmashtami</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="kicker">v1 proof · dummy data · Udupi Krishna Janmashtami</div>
+      <h1>Trend Radar</h1>
+      <p>Not "what has the most views" — what's accelerating right now, adjusted for how big the account already is. Fifteen manually-logged Reels from the Janmashtami window, ranked by velocity and acceleration.</p>
+      <div class="stat-strip" id="stat-strip"></div>
+    </header>
+
+    <main>
+      <div class="hero" id="hero"></div>
+  
+      <div class="layout">
+        <div class="leaderboard">
+          <h3>Leaderboard — ranked by trend score</h3>
+          <div id="leaderboard-list"></div>
+        </div>
+        <div class="detail">
+          <h3>What should you do about it</h3>
+          <div id="detail-panel"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="note">
+      Data here is manually logged for this demo (not scraped — see README for why, and for the real path to live data via each creator's own Instagram Insights). Click any row on the left to see why it's ranked where it is and a suggested next move.
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="trend-engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
