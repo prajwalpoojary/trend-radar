@@ -21,11 +21,11 @@ git init
 git add .
 git commit -m "v1: trend radar proof, dummy data"
 git branch -M main
-git remote add origin https://github.com/<your-username>/janmashtami-trend-radar.git
+git remote add origin https://github.com/<your-username>/Trend-Radar.git
 git push -u origin main
 ```
 Then turn on **GitHub Pages** (repo → Settings → Pages → Deploy from branch →
-`main` → `/root`). You'll get a live `https://<your-username>.github.io/janmashtami-trend-radar/`
+`main` → `/root`). You'll get a live `https://<your-username>.github.io/Trend-Radar/`
 link in a couple of minutes — that's what you send people, not a screenshot.
 
 ## Why the data is manual, not scraped or API-pulled — the feasibility check
